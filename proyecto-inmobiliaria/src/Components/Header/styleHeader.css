@@ -1,0 +1,57 @@
+.header {
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-image: linear-gradient(106deg,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../../../public/Images/living.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header img {
+    width: 52%;
+    height: 62%;
+    margin-left: 10%;
+}
+
+.header h1{
+    color:#B7F49D;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-weight: 100;
+    position: absolute;
+    top: 3.5%;
+    left: 35%;
+    font-size: 2.5em;
+}
+.navHeader{
+    display: flex;
+    position: relative;
+    top: 7vh;
+    left: 10vw;
+}
+.navHeader li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #abbeff;
+    box-shadow:  1px 1px 2px black;
+    border-radius: 20px;
+    list-style: none;
+    width: 6vw;
+    height: 4vh;
+    text-align: center;
+}
+.navHeader li:hover{
+    background-color: #B7F49D ;
+}
+.navHeader a{
+    text-decoration: none;
+    color: #22223d;
+    font-size: 0.9rem;
+
+}

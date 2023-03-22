@@ -1,0 +1,334 @@
+/* __________Ver Publicaciones______________ */
+.contenedorVerPubli{
+height: 100vh;
+width: 100vw;
+background-color: #000000a8;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+right: 0;
+z-index: 3;
+}
+.verPubli{
+    width: 80%;
+    height: 90%;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #bcc0e0;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding-top: 1%;
+}
+.cerrarModal{
+    position: fixed;
+    left: 85%;
+    top: 10%;
+    color: #262b52;
+}
+.cerrarModal:hover{
+    color: #B7F49D;
+    cursor: pointer;
+    font-size: large;
+}
+.cardAdmin{
+    background-color: #262b52;
+    height: 25vh;
+    width: 446px;
+    border-radius: 10px;
+}
+.infoCardAdmin{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    height: 25vh;
+    width: 130px;
+    position: relative;
+    left: 71%;
+    bottom: 55%;
+    color: white;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.operacionAdmin{
+    position: relative;
+    bottom: 55%;
+    left: 75%;
+    color: #B7F49D;
+}
+.infoCard p{
+    margin-top: 20px;
+}
+.tipo{
+    grid-area: tipo_inmueble;
+}
+.dormitorios{
+    grid-area: dormitorios;
+}
+.departamento{
+    grid-area: departamento;
+}
+.barrio{
+    grid-area: barrio;
+}
+.precio{
+    grid-area: precio;
+}
+.fotoPropiedadAdm{
+    height: 164px;
+    width: 290px;
+    border-radius: 10px;
+    position: relative;
+    top: 6%;
+    right: 9%;
+    object-fit: cover;
+}
+.contenedorCardAdmin{
+    height: max-content;
+}
+
+
+
+/* _________AGREGAR PUBLICACION ___________ */
+.contenedorAgregarPubli{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    z-index: 3;
+    }
+    
+    .agregarPubli{
+        width: 80%;
+        height: 90%;
+        box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        background-color: #bcc0e0;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        padding-top: 1%;
+    }
+
+    /* _________BORRAR PUBLICACION ___________ */
+.contenedorBorrarPubli{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    z-index: 3;
+    }
+    
+    .borrarPubli{
+        width: 80%;
+        height: 90%;
+        box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        background-color: #bcc0e0;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        padding-top: 1%;
+    }
+        /* _________MODIFICAR PUBLICACION ___________ */
+.contenedorModificarPubli{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+    }
+    
+    .modificarPubli{
+        width: 80%;
+        height: 90%;
+        box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        background-color: #bcc0e0;
+        background-position: center;
+        background-size: cover;
+        position: fixed;
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        padding-top: 1%;
+    }
+    .editarAdmin{
+        color: #B7F49D;
+        position: relative;
+        left: 90%;
+        top: 30px;
+        font-size: 15pt;
+    }
+
+    /* _____________FORM MODIFICAR____________ */
+    .contenedorFormModificar{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000007e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -6%;
+        z-index: 3;
+        }
+        
+        .contModificar{
+            width: 82%;
+            height: 90%;
+            box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            background-color: #bcc0e0;
+            background-position: center;
+            background-size: cover;
+            position: fixed;
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2%;
+            padding-top: 1%;
+        }
+        .cerrarFormModificar{
+            color: #262b52;
+            position: absolute;
+            right: 13%;
+            top: 11%;
+            z-index: 4;
+        }
+        .cerrarFormModificar:hover{
+            color: #B7F49D;
+            cursor: pointer;
+            font-size: large;
+        }
+        .formModificar{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items:center;
+            height: 380px;
+            width: 50%;
+            flex-wrap: wrap;
+            padding-bottom: 9%;
+        }
+        .imputFormModificar{
+            border-radius: 5px;
+            width: 200px;
+            height: 30px;
+            border-width: 1px;
+            border-color: #262b52;
+        }
+        .operacionModificar{
+            width: 200px;
+            height: 30px;
+            position: absolute;
+            top: 10px;
+            background-color: white;
+            border-width: 1px;
+            border-color: #262b52;
+            border-radius: 5px;
+        }
+        .imputFormModificarDescrip{
+            position: absolute;
+            bottom: 120px;
+        }
+        .imputFormModificarDescrip input{
+            height: 80px;
+            width: 590px;
+            border-radius: 10px;
+            border-width: 1px;
+            border-color: #262b52;
+        }
+        .submitModificar{
+            position: absolute;
+            bottom: 50px;
+            height: 30px;
+            border-radius: 20px;
+            width: 200px;
+            background-color: #B7F49D;
+        }
+
+        /* ________________BORRAR MODAL____________ */
+        .contenedorModalBorrar{
+            height: 100vh;
+            width: 100vw;
+            background-color: #23263a8f;
+            z-index: 3;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .modalBorrar{
+            height: 50%;
+            width: 60%;
+            background-color: rgb(225, 225, 243);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .buttonBorrar{
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btnBorrarPubli{
+            background-color: #B7F49D;
+            width: 50px;
+            margin: 2%;
+            border-radius: 20px;
+            border-style: ridge;
+            border-width: 1px;
+            border-color: #262b52;
+            width: 50px;
+            height: 30px;
+        }
+        .buttonBorrar :hover{
+            cursor: pointer;
+            background-color: #262b52;
+            color: white;
+        }

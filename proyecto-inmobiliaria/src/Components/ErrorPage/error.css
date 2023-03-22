@@ -1,0 +1,35 @@
+.contenedorError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.errorPage{
+    height: 400px;
+    width: 600px;
+    color: #262B52;
+}
+.casaError{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.errorPage  h3{
+    background-color: #B7F49D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: #262B52;
+}
+.errorPage h1{
+    font-size: 60px;
+    color: #abbeff;
+    font-family: 'Rubik Mono One', sans-serif;
+}

@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-// import Home from "./components/Home/Home";
-// import Administrar from "./components/Administrar/Administrar";
-// import Detalle from "./components/DetallePropiedad/Detalle";
 import LoginComp from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 // import ErrorPage from "./components/ErrorPage/ErrorPage";
+import Home from "./Components/Home/Home";
+import Administrar from "./Components/Administrar/Administrar";
+import Detalle from "./Components/DetallePropiedad/Detalle";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -20,18 +21,19 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register />,
   },
-  // {
-  //   path: "/home",
-  //   element: <Home />,
-  // },
-  // {
-  //   path: "/administrador",
-  //   element: <Administrar />,
-  // },
-  // {
-  //   path: "/home/propiedad/:id",
-  //   element: <Detalle />,
-  // },
+
+  {
+    path: "/home",
+    element: <Home />,
+  },
+  {
+    path: "/administrador",
+    element: <Administrar />,
+  },
+  {
+    path: "/home/propiedad/:id",
+    element: <Detalle />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

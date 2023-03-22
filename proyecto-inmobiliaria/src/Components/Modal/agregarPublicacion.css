@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nuevaPublicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:180vh; */
+    width: 100%;
+}
+
+.formtDiv {
+    padding: 7px;
+    height: 100%;
+}
+
+.formInput {
+    padding-left: 20px;
+    border-radius: thin 5px;
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    border-radius: 0;
+    margin-left: 0%;
+    border-width: 1px;
+    margin: 0;
+}
+.formInputDescrip{
+  padding-left: 20px;
+  border-radius: thin 5px;
+  width: 800px;
+  background-color: white;
+  border-radius: 0;
+  margin-left: 0%;
+  border-width: 1px;
+  height: 100px;
+}
+#boton{
+    padding:10px 25px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius:10px;
+    border: none;
+    background-color:#B7F49D;
+    font-size: 11pt;
+    cursor: pointer;
+    text-align:end;
+    text-decoration: none;
+    color: black;
+}
+
+ .titulo-registro{
+    font-size: 25pt;
+    font-weight:lighter;
+    padding-bottom: 10px;
+    color: black;
+    animation: desplazar  5s infinite;
+} @keyframes desplazar {
+    0% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(40%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .formInput-file{
+    padding: 10px;
+   
+  }
+  .formDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
