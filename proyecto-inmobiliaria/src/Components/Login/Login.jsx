@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "../../index.css";
 import { login } from "../../API/Rule_User";
+import { useEffect } from "react";
 
 function Login() {
   const [usuario, setUsuario] = useState("");
@@ -30,10 +31,28 @@ function Login() {
         alert(error);
       });
   };
+
+  useEffect(() => {
+    const imageLogin = document.querySelector(".imageLogin");
+    const images = [
+      "./Images/fotoPubli.jpg",
+      "./Images/login2.jpg",
+      "./Images/casa9.jpg",
+      "./Images/login3.jpg",
+    ];
+    let index = 0;
+    const interval = setInterval(() => {
+      index = (index + 1) % images.length;
+      imageLogin.style.backgroundImage = `url(${images[index]})`;
+    }, 5000);
+    return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
+  }, []);
+
   return (
     <div className="login">
       <div className="contenedorLogin">
         <form type="onSubmit" className="formLogin" onSubmit={handleSubmit}>
+          <img src="./Images/juanita.png" alt="" className="logoUsuario" />
           <h1>Welcome!</h1> <br />
           <h4>Login your account </h4> <br />
           <nav className="registerLogin"></nav>

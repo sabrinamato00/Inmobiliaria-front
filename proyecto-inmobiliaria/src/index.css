@@ -38,6 +38,14 @@
     width: 200px;
     padding-left: 5px;
 }
+.logoUsuario{
+    position: absolute;
+    width: 7vw;
+    height: auto;
+    top: 12%;
+    left: 17%;
+    border-top-left-radius: 10px;
+}
 p a{
     color: #B7F49D;
 }
@@ -60,5 +68,9 @@ a{
 .imageLogin{
     height: 80vh;
     width: 30vw;
-    background-color: aquamarine;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
