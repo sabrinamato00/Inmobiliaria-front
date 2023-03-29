@@ -10,9 +10,9 @@ function Header() {
   return (
     <div className="header">
       <div className="Logo">
-        <img src="/Images/Logo_inmobiliaria-sinBg.png" alt="Logo" />
+        <img src="/Images/juanitaHeader.png" alt="Logo" />
       </div>
-      <h1 className="tituloHeader">MONÓPOLIS INMOBILIARIA</h1>
+      <h1 className="tituloHeader">JUANITA PROPIEDADES</h1>
       <nav>
         <ul className="navHeader">
           <Link to={"/home"}>

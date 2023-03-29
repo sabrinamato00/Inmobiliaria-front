@@ -1,3 +1,18 @@
+# Inmobiliaria Frontend
+
+Este proyecto es un frontend para una aplicación web de una inmobiliaria.
+
+## Características
+
+Este proyecto utiliza las siguientes tecnologías:
+
+- React
+- React Router DOM
+- Axios
+  El backend de esta aplicación está en otro repositorio y se conecta mediante la biblioteca Axios. (https://github.com/sabrinamato00/Inmobiliaria-back.git)
+
+Además, este proyecto también cuenta con una sección de inicio de sesión y registro de usuarios.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

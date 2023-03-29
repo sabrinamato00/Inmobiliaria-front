@@ -10,9 +10,10 @@
 }
 
 .header img {
-    width: 52%;
-    height: 62%;
-    margin-left: 10%;
+    width: 30%;
+    /* height: 52%; */
+    margin-left: 20%;
+    border-radius: 50%;
 }
 
 .header h1{
@@ -29,8 +30,9 @@
 .navHeader{
     display: flex;
     position: relative;
-    top: 7vh;
-    left: 10vw;
+    margin-top: 10%;
+    /* top: 7vh; */
+    /* left: 1vw; */
 }
 .navHeader li{
     display: flex;

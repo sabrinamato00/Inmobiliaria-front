@@ -12,16 +12,16 @@ function Footer() {
       <div className="footer">
         <div className="nombreLogoFooter">
           <img
-            src="/Images/Logo_Inmobiliaria-sinBg.png"
+            src="/Images/JuanitaHeader.png"
             alt="Footer"
             className="logoFooter"
           />
-          <h1 className="nombreFooter">MONÓPOLIS INMOBILIARIA</h1>
+          <h1 className="nombreFooter">JUANITA PROPIEDADES</h1>
         </div>
         <div className="infoFooter">
           <p>
             Teléfono: 2123.0020 - 099.121.688 <br /> Dirección: Fausto 641
-            <br /> E-mail: contacto@monopolis.com.uy
+            <br /> E-mail: contacto@juanita.com.uy
           </p>
         </div>
         <div className="redesSocialesFotter">
